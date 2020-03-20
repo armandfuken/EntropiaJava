@@ -52,21 +52,21 @@ public class SubMenuIntroducirDatos extends JFrame implements ActionListener{
 		if(arg0.getSource() == Triangular) {
 			double x =Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para X", 0));
 			double a =Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para A", 0));
-			double b = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para B", 32));
-			double c = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para C", 75));
+			double b = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para B", 0));
+			double c = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para C", 0));
 			JOptionPane.showMessageDialog(null, "EL grado de pertenencia es: "+ f.triangular(x, a , b, c));
 		}else if(arg0.getSource()== Trapezoide) {
 			double x =Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para X", 0));
-			double a =Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para A", 85));
-			double b = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para B", 95));
-			double c = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para C", 105));
-			double d = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para D", 120));
+			double a =Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para A", 0));
+			double b = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para B", 0));
+			double c = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para C", 0));
+			double d = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para D", 0));
 			JOptionPane.showMessageDialog(null, "EL grado de pertenencia es: "+ f.trapezoidal(x, a, b, c, d));
 			
 		}else if(arg0.getSource()==Gausiana) {
 			double x = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para X", 0));
-			double b = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para B", 15));
-			double c = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para C", 60));
+			double b = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para B", 0));
+			double c = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para C", 0));
 			JOptionPane.showMessageDialog(null, "EL grado de pertenencia es: "+ f.gaussian(x, b, c));
 		}else if(arg0.getSource()==General) {
 			double x =Double.parseDouble(JOptionPane.showInputDialog(null, "Inserte valor para X", 0));

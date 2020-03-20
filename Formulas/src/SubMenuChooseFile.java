@@ -26,7 +26,7 @@ public class SubMenuChooseFile  extends JFrame implements ActionListener{
 	public  SubMenuChooseFile() {
 		super("Formulas");
 		this.getContentPane().setBackground(new Color(0, 188, 212));
-		this.label.setBounds(10,10,250,75);
+		this.label.setBounds(10,10,400,75);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setLocationRelativeTo(null);
 		this.setLayout(null);
@@ -67,7 +67,7 @@ public class SubMenuChooseFile  extends JFrame implements ActionListener{
 			modelo.addColumn("A");
 			modelo.addColumn("B");
 			modelo.addColumn("C");
-			modelo.addColumn("Resultado");
+			modelo.addColumn("Entropia");
 			ChooseFile choose = new ChooseFile();
 			try {
 				LeerCSV csv = new LeerCSV();
@@ -100,7 +100,7 @@ public class SubMenuChooseFile  extends JFrame implements ActionListener{
 			modelo.addColumn("B");
 			modelo.addColumn("C");
 			modelo.addColumn("D");
-			modelo.addColumn("Resultado");
+			modelo.addColumn("Entropia");
 			ChooseFile choose = new ChooseFile();
 			try {
 				LeerCSV csv = new LeerCSV();
@@ -132,7 +132,7 @@ public class SubMenuChooseFile  extends JFrame implements ActionListener{
 			modelo.addColumn("X");
 			modelo.addColumn("B");
 			modelo.addColumn("C");
-			modelo.addColumn("Resultado");
+			modelo.addColumn("Entropia");
 			ChooseFile choose = new ChooseFile();
 			try {
 				LeerCSV csv = new LeerCSV();
@@ -161,11 +161,9 @@ public class SubMenuChooseFile  extends JFrame implements ActionListener{
 			JTable tabla = new JTable();
 			DefaultTableModel modelo = (DefaultTableModel)tabla.getModel();
 			modelo.addColumn("X");
-			modelo.addColumn("A");
 			modelo.addColumn("B");
 			modelo.addColumn("C");
-			modelo.addColumn("D");
-			modelo.addColumn("Resultado");
+			modelo.addColumn("Entropia");
 			ChooseFile choose = new ChooseFile();
 			try {
 				LeerCSV csv = new LeerCSV();
