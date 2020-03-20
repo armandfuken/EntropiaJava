@@ -4,9 +4,12 @@ Encuentra la entropia de los valores que se ingresan mediante teclado o igualmen
 ## Comenzando 🚀 
 ## Archivos de prueba:
 
-carpetas para probar
-...
+
 archivos/Triangular.csv
-...
+
 archivos/Trapezoide.csv
 
+archivos/Gausianna.csv
+
+archivos/General.csv
+2
