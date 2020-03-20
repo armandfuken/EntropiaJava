@@ -12,4 +12,3 @@ archivos/Trapezoide.csv
 archivos/Gausianna.csv
 
 archivos/General.csv
-2
